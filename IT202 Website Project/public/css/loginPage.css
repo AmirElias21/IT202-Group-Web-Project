@@ -1,0 +1,43 @@
+@charset "utf-8";
+
+#loginTitle {
+    font-family: 'Arial Black', sans-serif;
+    font-size: 60px;
+    color: maroon;
+    text-shadow: 4px 0 tomato;
+    text-decoration: dashed underline 10px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: lightcyan;
+}
+
+h2, span {
+    font-family: 'Futura', serif;
+    font-weight: bold;
+    font-size: 40px;
+    color: darkgreen;
+}
+
+#loginForm {
+    font-family: 'Futura', serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: indigo;
+    text-decoration-line: underline;
+    text-shadow: 2px 0 yellow;
+    text-decoration-style: dashed;
+    text-decoration-thickness: 4px;
+}
+
+input {
+    color: indigo;
+    font-family: 'Helvetica';
+    font-style: italic;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: lightyellow;
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/public/css/addMovie.css">
+    <title>Add Movie - Personal Movie Tracker</title>
+  </head>
+
+  <body>
+    <h1 id="addMovieTitle">Add a Movie</h1>
+
+    <form id="addMovieForm" onsubmit="handleAddMovie(event)">
+      <label for="movieIMG">Movie Image URL:</label><br />
+      <input
+        type="text"
+        id="movieIMG"
+        name="movieIMG"
+        placeholder="Image URL Address"
+      /><br /><br />
+
+      <label for="movieTitle">Movie Title:</label><br />
+      <input
+        type="text"
+        id="movieTitle"
+        name="movieTitle"
+        required
+      /><br /><br />
+
+      <label for="status">Status:</label><br />
+      <select id="status" name="status" required>
+        <option value="">-- Status Selection --</option>
+        <option value="planned">planned</option>
+        <option value="finished">finished</option></select
+      ><br /><br />
+
+      <label for="rating">Rating (1-5):</label><br />
+      <input
+        type="number"
+        id="rating"
+        name="rating"
+        min="1"
+        max="5"
+      /><br /><br />
+
+      <label for="date">Completion/Start:</label><br />
+      <input type="date" id="date" name="date" /><br /><br />
+
+      <button type="submit" id="addMovieButton">Add to List</button>
+    </form>
+
+    <br />
+
+    <a href="index.html" id="backToList"> Back to Movie List!</a>
+    <script src="/public/js/addMovie.js"></script>
+  </body>
+</html>

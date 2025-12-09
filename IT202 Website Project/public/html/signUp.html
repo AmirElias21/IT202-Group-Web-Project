@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/public/css/signupPage.css">
+    <title>Sign Up - Personal Movie Tracker</title>
+  </head>
+
+  <body>
+    <h1 id="signupTitle">Create Account!</h1>
+
+    <form id="signupBody" onsubmit="handleSignUp(event)">
+      <label for="username">Username:</label><br />
+      <input type="text" id="username" name="username" required /><br /><br />
+      <label for="password">Password:</label><br />
+      <input
+        type="password"
+        id="password"
+        name="password"
+        required
+      /><br /><br />
+      <label for="confirmPassword">Confirm Password:</label><br />
+      <input
+        type="password"
+        id="confirmPassword"
+        name="confirmPassword"
+        required
+      /><br /><br />
+      <button type="submit" id="signup">Sign Up</button>
+      <p id="passwordError"></p>
+    </form>
+
+    <a href="loginPage.html"> Click here if you have an account!</a>
+    <script src="/public/js/signUp.js"></script>
+  </body>
+</html>

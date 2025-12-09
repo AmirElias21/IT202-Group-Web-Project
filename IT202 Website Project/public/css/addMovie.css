@@ -1,0 +1,45 @@
+@charset "utf-8";
+
+body {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: lightgoldenrodyellow;
+}
+
+#addMovieTitle {
+    font-family: 'Arial Black', sans-serif;
+    font-style: italic;
+    font-size: 60px;
+    text-decoration: underline wavy lightblue;
+    color: darkgoldenrod;
+    text-shadow: 4px 0 black;
+}
+
+#addMovieForm {
+    font-family: 'Futura', serif;
+    font-weight: bold;
+    font-size: 25px;
+    color: midnightblue;
+    text-shadow: 3px 0 blanchedalmond;
+    text-decoration: overline red;
+}
+
+#addMovieButton {
+    font-family: 'Verdana', serif;
+    font-weight: bold;
+    background-color: tan;
+    font-size: 20px;
+    color: navy;
+    outline-style: groove;
+    outline-color: tomato;
+    outline-width: 4px;
+    margin-bottom: 15px;
+}
+
+a {
+    font-family: 'Helvetica';
+    font-weight: bold;
+    font-style: italic;
+    font-size: 20px;
+}

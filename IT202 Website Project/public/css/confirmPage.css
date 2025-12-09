@@ -1,0 +1,26 @@
+@charset "utf-8";
+
+body {
+    background-color: lightyellow;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+h1 {
+    margin-top: 50px;
+    font-family: 'Futura', serif;
+    font-weight: bold;
+    font-size: 60px;
+    color: darkgreen;
+    text-shadow: 10px 0 yellowgreen;
+    text-decoration: underline wavy;
+}
+
+a {
+    margin-top: 50px;
+    font-family: 'Helvetica';
+    font-weight: bold;
+    font-style: italic;
+    font-size: 30px;
+}

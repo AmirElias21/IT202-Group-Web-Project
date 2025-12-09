@@ -1,0 +1,122 @@
+@charset "utf-8";
+
+.movieBody {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.addMovie {
+    width: 180px;
+    height: 220px;
+    border-radius: 30px;
+    background-color: #e5e5e5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    transition: transform 0.15s ease, box-shadow 0.15s ease, background-color 0.15s ease;
+}
+
+.addMovie:hover {
+    background-color: #f0f0f0;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.2);
+}
+
+.addButton {
+    font-size: 80px;
+    font-weight: 600;
+    color: #888888;
+    line-height: 1;
+}
+
+#movieList {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+
+.movieCard img {
+    width: 180px;
+    height: auto;
+    border-radius: 6px;
+}
+.movieCard {
+    text-align: center;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+    margin-bottom: 30px;
+}
+
+.deleteButton {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    padding: 4px 10px;
+    font-size: 12px;
+    border: none;
+    border-radius: 15px;
+    background-color: #c00000;
+    color: white;
+    cursor: pointer;
+    opacity: 0;
+    transition: opacity 0.2s ease;
+}
+
+.movieCard:hover .deleteButton {
+    opacity: 1;
+}
+
+
+#indexUsername {
+    font-family: 'Arial Black', sans-serif;
+    font-size: 60px;
+    color: maroon;
+    text-shadow: 4px 0 tomato;
+    text-decoration: dashed underline 10px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: lightcyan;
+}
+
+h2, span {
+    font-family: 'Futura', serif;
+    font-weight: bold;
+    font-size: 40px;
+    color: darkgreen;
+}
+
+#doneButton {
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    padding: 12px 30px;
+    background-color: #c60000;    /* red */
+    color: white;
+    font-family: 'Futura', serif;
+    font-weight: bold;
+    font-size: 20px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+    transition: transform 0.15s ease, box-shadow 0.15s ease, background-color 0.15s ease;
+}
+
+#doneButton:hover {
+    background-color: #a00000;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.3);
+}

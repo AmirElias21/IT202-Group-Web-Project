@@ -1,0 +1,44 @@
+@charset "utf-8";
+
+#signupTitle {
+    font-family: 'Arial Black', sans-serif;
+    font-size: 60px;
+    text-decoration: underline wavy lightblue;
+    color: darkolivegreen;
+}
+
+#signupBody label {
+    font-family: 'Futura', serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: darkgreen;
+    text-decoration-line: overline;
+    text-decoration-style: dotted;
+    text-decoration-thickness: 7px;
+}
+
+#signupBody button {
+    font-family: 'Futura', serif;
+    font-weight: bold;
+    background-color: lightskyblue;
+    margin-bottom: 30px;
+    font-size: 25px;
+    outline-style: double;
+    outline-color: indigo;
+    outline-width: 4px;
+    font-style: oblique;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: lightcyan;
+}
+
+a {
+    font-family: 'Helvetica';
+    font-style: italic;
+    font-size: 20px;
+    font-weight: bold;
+}
